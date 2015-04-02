@@ -1,5 +1,8 @@
-pushserver 使用itms-service协议下载安装示例plist
+pushserver plist demo
+-------------------------
+author: jinlong.yang
 
-注：
-ios 7.1之后，plist必须使用https访问,而github是https，因此是最好的测试环境。
+### 内网ipa下载，使用itms-service协议
+- ios 7.1 后，规定plist必须使用https访问。所以itms-service使用的plist必须是https的,github是https，所以可以使用github作为练习使用。
+
 ==========
