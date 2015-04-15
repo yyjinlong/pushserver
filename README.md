@@ -14,7 +14,11 @@ author: jinlong.yang
 ----------
 - python版本的推送后端，包括feedback service
 
-### 4) push_ios: pushserver ios native 版本app
+### 4) feedback.py: pushserver 的定时任务
+----------
+- python版本feedback service, 用于获取失效的token
+
+### 5) push_ios: pushserver ios native 版本app
 ----------
 - ios native 版本推送demo
 
