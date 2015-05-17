@@ -9,6 +9,8 @@ import paho.mqtt.client as mqtt
 MQTT_BROKER = "localhost"
 MQTT_PORT = 1883
 MQTT_SUBSCRIBE_THEME = "levis"
+#在推送的时候，就是安卓的设备id
+MQTT_CLIENT_ID = "45464748"
 
 
 def on_connect(client, userdata, flags, rc):
@@ -20,7 +22,7 @@ def on_message(client, userdata, msg):
 
 
 if __name__ == '__main__':
-    mqtt_client = mqtt.Client()
+    mqtt_client = mqtt.Client(MQTT_CLIENT_ID)
     mqtt_client.on_connect = on_connect
     mqtt_client.on_message = on_message
 

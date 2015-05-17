@@ -22,10 +22,10 @@ author: jinlong.yang
 
     ios native 版本推送demo
 
-6) android xmpp demo
+6) android mqtt demo
 
-    android xmpp demo
+    android mqtt demo
 
 7) android client use xmpp demo
 
-    android client use xmpp demo
+    android client use mqtt demo
