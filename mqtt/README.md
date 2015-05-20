@@ -50,3 +50,15 @@ author: jinlong.yang
 
 5) 配置android客户端来连接mosquitto进行消息推送
 
+    AndroidMqttDemo ： android mqtt demo 列子
+    修改src/com/tokudu/demo/PushService.java:
+    MQTT_HOST修改为你的mosquitto的地址
+    MQTTCOnnection函数里的initTopic  修改为“levis"
+    之后运行,并启动Start Push service服务
+
+    终端运行：
+    $ mosquitto_pub -h localhost -t levis -m "hello world"
+
+    或者直接运行：
+    $ python m_pub.py
+

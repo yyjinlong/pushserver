@@ -4,7 +4,8 @@ author: jinlong.yang
 
 1) pushserver.plist: 内网ipa下载，使用itms-service协议
 
-    ios 7.1 后，规定plist必须使用https访问。所以itms-service使用的plist必须是https的,github是https，所以可以使用github作为练习使用。
+    ios 7.1 后，规定plist必须使用https访问。所以itms-service使用的plist必须是https的,
+    github是https，所以可以使用github作为练习使用。
 
 2) pushserver.php: pushserver php 版本后端
 
@@ -24,8 +25,5 @@ author: jinlong.yang
 
 6) android mqtt demo
 
-    android mqtt demo
+    android mqtt demo -> AndroidMqttDemo
 
-7) android client use xmpp demo
-
-    android client use mqtt demo
