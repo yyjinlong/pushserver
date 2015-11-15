@@ -28,4 +28,3 @@ if __name__ == '__main__':
 
     mqtt_client.connect(MQTT_BROKER, MQTT_PORT, keepalive=60)
     mqtt_client.loop_forever()
-

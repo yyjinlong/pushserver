@@ -2,13 +2,15 @@
 --------------------------
 author: jinlong.yang
 
+
 1) 源码安装
 
-    # wget  http://mosquitto.org/files/source/mosquitto-1.4.2.tar.gz 
+    # wget  http://mosquitto.org/files/source/mosquitto-1.4.2.tar.gz
     # tar zxfv mosquitto-1.4.2.tar.gz
     # cd mosquitto-1.4.2
     # sudo make
     # sudo make install
+
 
 2) 遇到的报错
 
@@ -28,6 +30,7 @@ author: jinlong.yang
     # 更新动态链接库
     sudo ldconfig
 
+
 3) 配置&运行
 
     拷贝配置文件
@@ -43,10 +46,12 @@ author: jinlong.yang
     发送：
     # mosquitto_pub -h localhost -t levis -m "hello world"
 
+
 4) mosquitto 的python client:
 
     m_sub.py ---> mosquitto_sub -v -t levis
     m_pub.py ---> mosquitto_pub -h localhost -t levis -m "hello world"
+
 
 5) 配置android客户端来连接mosquitto进行消息推送
 
@@ -61,4 +66,3 @@ author: jinlong.yang
 
     或者直接运行：
     $ python m_pub.py
-

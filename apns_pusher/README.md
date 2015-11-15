@@ -41,4 +41,3 @@
         ➜ apns-client-0.2.1 git:(master) ✗
         ➜ apns-client-0.2.1 git:(master) ✗ sudo python setup.py build
         ➜ apns-client-0.2.1 git:(master) ✗ sudo python setup.py install
-
